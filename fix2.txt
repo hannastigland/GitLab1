@@ -1,0 +1,31 @@
+GitLab1
+1. git init
+git branch -m main
+2. echo "duck`r`nmoose`r`ncat" > README.md
+3. git add README.md
+git commit -m "Initial commit"
+4. git checkout -b feature1
+5. git add README.md
+git commit -m "Add dog, change moose"
+6. git checkout main
+git commit -m "Change moose to mahmut"
+7. git merge feature1
+*löste konflikten i intellij*
+git add README.md
+git commit -m "Merge feature1"
+8. git tag -a extinct -m "extinct"
+9. git reset --hard d0018465
+11. (bytte ordning på dessa)
+git add README.md
+git commit -m "Change animal names to start with capital letters"
+10. git checkout -b feature2
+12. git add fix1.txt
+git commit -m "Add fix1"
+git add fix2.txt
+git commit -m "Add fix2"
+13. git checkout main
+14. git cherry-pick 61f99a3
+15. *lagt till text i fix2*
+16. git remote add origin https://github.com/hannastigland/GitLab1.git
+git push -u origin main
+
